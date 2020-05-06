@@ -1,0 +1,105 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 25%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* ここから */
+header {
+  background-color: #333333;
+  height: 50px;
+}
+header ul {
+  margin: 0;
+  padding: 10px 0 10px 20px;
+}
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
+header li {
+  list-style: none;
+  font-size: 1rem;
+}
+#left {
+  float: left;
+}
+.left {
+  float: left;
+}
+#right {
+  float: right;
+}
+.right {
+  float: left;
+}
+header li:hover {
+  text-decoration: underline;
+}
+.clearfix{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* ここまでがheader部分の実装 */
+.parent{
+  position: relative;
+}
+.main-header img{
+  width:20%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+}
+.about {
+  padding-bottom: 1%;
+}
+.function {
+  background-color: #BBBBBB;
+  padding-top: 3%;
+  padding-bottom: 80px;
+}
+.function_images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.function-image {
+  width: 10%;
+  float: left;
+  margin: 3%;
+}
+.function_images:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* ここまでがfunction部分の実装 */
+footer {
+  background-color: #191970;
+  height: 60px;
+  bottom: 0px;
+  color: #fff;
+  width: 100%;
+}
+.copycompany{
+  font-size: 1rem;
+  padding-top: 20px;
+  margin:0;
+}
+.copyright{
+  font-size: 0.5rem;
+  margin:0;
+}
